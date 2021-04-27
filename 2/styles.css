@@ -1,0 +1,113 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border: 2px black dotted;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#arrow {
+    height: 50px;
+    margin: auto 40% auto 70%;
+    padding: 0;
+}
+
+a {
+    font-size: 30px;
+    padding: 15px;
+    border: 2px black solid;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+#day3 {
+    position: relative;
+    float: right;
+}
+#day1 {
+    float: left;
+}
+
+th, td {
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+}
+
+th, td, table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+tr, th{
+    height: 40px;
+    width: 100px;
+}
+
+.first {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(255,193,127,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+table {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: green;
+    overflow-x: hidden;
+}
+
+.time {
+    text-align: right;
+    border: none;
+    background-color: green;
+    font-size: 20px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.physics {
+    background-color: orchid;
+}
+
+.computerScience {
+    background-color: darkgoldenrod;
+}
+
+.science {
+    background-color: deepskyblue;
+}
+
+#sports{
+    background-color: darkred;
+}
+
+.maths {
+    background-color: gold;
+}
+
+.german {
+    background-color: indigo;
+}
+
+.english {
+    background-color: mediumvioletred;
+}
+.french {
+    background-color: orangered;
+}
+
+.history {
+    background-color: seagreen;
+}
+
+.EMC {
+    background-color: greenyellow;
+}

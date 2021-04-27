@@ -1,0 +1,40 @@
+#csgoMainImage {
+    height: 300px;
+    margin: 20px;
+}
+
+body {
+    background-color: blueviolet;
+    text-align: center; 
+}
+
+.text {
+    text-align: center;
+    margin: auto 20% 30px 20%;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
+    padding: 0;
+    margin: 10px auto 0 auto;
+}
+
+h3 {
+    margin: 5px;
+    text-decoration: underline;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+    background-color: seagreen;
+    font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 15px;
+}
