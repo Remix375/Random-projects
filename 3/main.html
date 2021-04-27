@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <style>
-    div{
+    .text{ 
         text-align: center;
         margin-top: 100px;
+    }
+    .text h1 {
+        font-size: 2.66rem;
+        color: chocolate;
+    }
+    .text p {
+        margin-top: 4rem;
+        font-size: 1.33rem;
     }
     html, body{
         background-color: aqua;
@@ -11,7 +19,8 @@
         overflow: hidden;
     }
     .next {
-        margin-top: 30%;
+        margin-top: 25%;
+        text-align: center;
     }
 
     .next #p2 {
@@ -20,23 +29,29 @@
     .next #p4 {
         margin-left: 20%;
     }
-    .next #p {
-        
+    .p {
+        height: 2.5rem;
+        width: 7rem;
+        background-color: blueviolet;
+        cursor: pointer;
+        font-weight: 1000;
     }
 </style>
 
 
 <body>
-    <div>
+    <div class="text">
         <h1>Page web en un seul fichier</h1>
+        <p>Pas tres interressant comme page web...</p>
     </div>
+
     <div class="next">
-        <a href="../2/main.html" id="p2" class="p">
-            <button>Page 2</button>
+        <a href="../2-Time-Table/main.html" id="p2">
+            <button class="p">Page 2</button>
         </a>
 
-        <a id="p4" class="p">
-           <button>Page 4</button> 
+        <a id="p4" >
+           <button class="p">Page 4</button> 
         </a>
         
     </div>
