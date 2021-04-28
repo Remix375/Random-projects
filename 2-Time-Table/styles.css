@@ -1,3 +1,14 @@
+#button-to-index {
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    height: 2.5rem;
+    width: 5rem;
+    cursor: pointer;
+}
+
+
+
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -17,7 +28,7 @@ h3 {
     padding: 0;
 }
 
-a {
+.article {
     font-size: 30px;
     padding: 15px;
     border: 2px black solid;
