@@ -1,15 +1,19 @@
 const imageHolder = document.getElementById("catImage");
 
 const changeImage = () => {
-    console.log("hey")
-    const randomNum = Math.floor(Math.random() * 10000000);
-    console.log(randomNum)
-    const link = 'https://thiscatdoesnotexist.com/?' + randomNum;
 
+
+    const randomNum1 = Math.floor(Math.random() * 10000000);
+
+
+
+    const link = `https://thiscatdoesnotexist.com/?${randomNum1}`;
+
+    
     imageHolder.src = link;
 
 
 }
 
+setInterval(changeImage, 300)
 
-imageHolder.onclick = changeImage
