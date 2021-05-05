@@ -1,5 +1,7 @@
 const imageHolder = document.getElementById("catImage");
 
+
+
 const changeImage = () => {
 
 
@@ -9,7 +11,6 @@ const changeImage = () => {
 
     const link = `https://thiscatdoesnotexist.com/?${randomNum1}`;
 
-    
     imageHolder.src = link;
 
 
