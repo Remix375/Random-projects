@@ -1,6 +1,41 @@
 body {
+    background-color: #323d35;   
+}
+
+#body {
     text-align: center;
-    background-color: #323d35;
+}
+
+#toHome {
+    position: absolute;
+    left: 3rem;
+    top: 4rem;
+    
+
+    box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+
+}
+
+#toHome:hover {
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+#toHome:active {
+
+    top: 4.5rem;
 }
 
 #title {
@@ -12,4 +47,34 @@ body {
 
 #catImage {
     cursor: pointer;
+}
+
+#buttons {
+    margin-top: 2rem;
+}
+
+.pageButton {
+    box-shadow:inset 0px 0px 8px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:9px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+    margin: 1rem;
+}
+
+.pageButton:hover {
+    background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.pageButton:active {
+    position: relative;
+    top: 1px;
 }
